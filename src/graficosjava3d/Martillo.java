@@ -113,7 +113,7 @@ public class Martillo extends Applet {
     }
     
     private Light iluminar(){
-        DirectionalLight luz = new DirectionalLight(true,new Color3f(8.0f,1.0f,0.0f),new Vector3f(-2.0f,3.0f,-2.0f));
+        DirectionalLight luz = new DirectionalLight(true,new Color3f(0.0f,0.0f,1.0f),new Vector3f(-2.0f,3.0f,-2.0f));
         luz.setInfluencingBounds(new BoundingSphere(new Point3d(),1000.0));
         
         return luz;

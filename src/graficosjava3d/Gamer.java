@@ -55,7 +55,7 @@ public class Gamer extends Applet{
         escenaRoot.addChild(dibujarfondo());
         
         //ambiente de luces
-        Color3f luz1Color = new Color3f(1.0f,1.0f,0.9f);
+        Color3f luz1Color = new Color3f(0.0f,1.0f,1.0f);
         Vector3f luz1Direccion = new Vector3f(4.0f,-7.0f,-12.0f);
         Color3f luz2Color = new Color3f(0.3f,0.3f,0.4f);
         Vector3f luz2Direccion = new Vector3f(-6.0f,-2.0f,-1.0f);
